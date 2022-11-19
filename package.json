@@ -1,0 +1,15 @@
+{
+  "name": "@analyser/dependency-analyser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "https://github.com/krishnasaga/dependency-analyser.git",
+  "author": "krishnasagar <sagar474@hotmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  }
+}

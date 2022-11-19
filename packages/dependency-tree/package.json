@@ -1,0 +1,33 @@
+{
+  "name": "@analyser/dependency-tree",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Krishna Sagar Rayudu <sagar474@hotmail.com>",
+  "homepage": "https://github.com/krishnasaga/dependency-analyser#readme",
+  "license": "ISC",
+  "main": "lib/dependency-tree.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishnasaga/dependency-analyser.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/dependency-tree.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/krishnasaga/dependency-analyser/issues"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "^0.57.2",
+    "dependency-tree": "^8.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9"
+  }
+}
