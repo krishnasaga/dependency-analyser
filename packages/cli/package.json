@@ -4,7 +4,7 @@
   "description": "oclif example Hello World CLI",
   "author": "Krishna Sagar Rayudu",
   "bin": {
-    "analyser": "./bin/run"
+    "an": "./bin/run"
   },
   "homepage": "https://github.com/sagarrayudu/hello-world",
   "license": "MIT",
@@ -21,7 +21,11 @@
     "@nodegui/nodegui": "^0.57.2",
     "@oclif/core": "^1.19.1",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.1.6"
+    "@oclif/plugin-plugins": "^2.1.6",
+    "graphviz-builder": "^0.1.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-textual-uml": "^0.12.0",
+    "open": "^8.4.0"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.10",
@@ -40,7 +44,7 @@
     "typescript": "^4.9.3"
   },
   "oclif": {
-    "bin": "analyser",
+    "bin": "an",
     "dirname": "analyser",
     "commands": "./dist/commands",
     "plugins": [

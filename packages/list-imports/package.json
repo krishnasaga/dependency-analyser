@@ -1,11 +1,11 @@
 {
-  "name": "@analyser/node-api",
+  "name": "@analyser/list-imports",
   "version": "0.0.0",
   "description": "> TODO: description",
-  "author": "Krishna Sagar Rayudu <sagar474@hotmail.com>",
+  "author": "krishnasagar <sagar474@hotmail.com>",
   "homepage": "https://github.com/krishnasaga/dependency-analyser#readme",
   "license": "ISC",
-  "main": "dist/node-api.js",
+  "main": "dist/list-imports.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,21 +18,14 @@
     "url": "git+https://github.com/krishnasaga/dependency-analyser.git"
   },
   "scripts": {
-    "test": "node ./__tests__/node-api.test.js",
+    "test": "node ./__tests__/list-imports.test.js",
     "tsc": "tsc"
   },
   "bugs": {
     "url": "https://github.com/krishnasaga/dependency-analyser/issues"
   },
   "dependencies": {
-    "@nodegui/nodegui": "^0.57.2",
-    "dependency-tree": "^8.1.2",
-    "graphviz-builder": "^0.1.0",
-    "markdown-it": "^13.0.1",
-    "markdown-it-textual-uml": "^0.12.0",
-    "open": "^8.4.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.9"
+    "@babel/parser": "^7.20.3",
+    "@babel/types": "^7.20.2"
   }
 }
